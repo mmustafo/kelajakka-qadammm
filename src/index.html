@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+  <body class="font-['Heebo']">
+    <header class="header">
+      <nav class=" pr-[10px] pt-[10px] flex justify-end mb-[150px]">
+        <img class="md:hidden" src="image/menu.png" alt="">
+        <ul class="hidden md:flex gap-[33px]">
+          <li>Works</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-[100%]">
+      <section class="container w-[100%] flex gap-[34px] flex-col justify-center items-center md:flex-row-reverse md:items-center md:justify-center" >
+      <div class="flex justify-center mt-[33px] md:items-center md:justify-center">
+        <img src="image/Ellipse 1 (1).png" alt="">
+      </div>  
+      <div class="flex gap-[34px] flex-col justify-center items-center md:items-start">
+        <h1 class="text-3xl font-bold max-w-[212px] text-center md:max-w-[406px] md:text-start md:ml-[50px]">Hi, I am John,
+          Creative Technologist</h1>
+          <p class="text-lg font-normal max-w-[328px]] text-center md:max-w-[497px] md:text-start md:ml-[50px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <a class="px-[20px] py-[17px] bg-[#FF6464] border-[] text-xl font-medium	text-white rounded-[5px] md:flex md:ml-[50px]" href="#">Download Resume</a>
+      </div>
+    </section>
+    <section class="container flex gap-[34px] flex-col justify-center items-center bg-[#EDF7FA] mt-[56px]">
+     <nav class="w-[100%] ">
+      <ul class="md:flex md:justify-between w-[100%] mt-[27px]">
+        <li class="ml-[150px] text-xl font-normal ">Recent posts</li>
+        <li class="text-[#00A8CC] text-xl font-normal hidden md:flex md:mr-[30px]">View all</li>
+      </ul>
+     </nav>
+     <div class=" flex md:gap-[20px] gap-[17px] flex-wrap mb-[32px] ml-[50px]">
+      <div class="bg-white rounded-[10px]">
+        <h2 class="  ml-[23px] pt-[24px] max-w-[384px] text-3xl font-bold">Making a design system from scratch</h2>
+        <div class="flex mt-[17px] mb-[11px] gap-[26px]">
+          <p class="ml-[23px]">12 Feb 2020</p>
+          <p class="ml-[23px]">|</p>
+          <p class="ml-[23px]">Design, Pattern</p>
+        </div>
+        <p class="ml-[23px] max-w-[366px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </div>
+      
+      <div class="bg-white rounded-[10px]">
+        <h2 class="  ml-[23px] pt-[24px] max-w-[384px] text-3xl font-bold">Making a design system from scratch</h2>
+        <div class="flex mt-[17px] mb-[11px] gap-[26px]">
+          <p class="ml-[23px]">12 Feb 2020</p>
+          <p class="ml-[23px]">|</p>
+          <p class="ml-[23px]">Design, Pattern</p>
+        </div>
+        <p class="ml-[23px] max-w-[366px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </div>
+     </div>
+
+    </section>
+    <section class="bg-white container w-[100%] flex gap-[34px] flex-col justify-center items-center "> 
+        <h3 class="text-xl font-normal text-start items-start mt-[40px]">Featured works</h3>
+      <div class="flex-col gap-[30px]">
+        <div class="md:flex md:gap-[18px] md:pl-[50px] ml-[50px]">
+          <div class=""><img src="image/Rectangle 30.png" alt=""></div>
+          <div class="">
+            <h3 class="font-bold text-3xl mb-[20x]">Designing Dashboards</h3>
+            <div class="flex gap-[26px]">
+              <p class="bg-[#142850] px-[10px] rounded-[10px] font-black text-lg text-white">2020</p>
+              <p class="">Dashboard</p>
+            </div>
+            <p class="mt-[17px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            
+          </div>
+          
+        </div>
+
+        <hr class="md:max-w-[858px] bg-[#E0E0E0] mb-[83px] ml-[100px] mt-[35px] ">
+
+        <div class="md:flex md:gap-[18px] md:pl-[50px] hidden">
+          <div class=""><img src="image/Rectangle 32.png" alt=""></div>
+          <div class="">
+            <h3 class="font-bold text-3xl mb-[16px]">Vibrant Portraits of 2020</h3>
+            <div class="flex gap-[26px]">
+              <p class="bg-[#142850] px-[10px] rounded-[10px] font-black text-lg text-white">2018</p>
+              <p class="">Illustration</p>
+            </div>
+            <p class="mt-[17px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+        </div>
+        <hr class="md:max-w-[858px] md:bg-[#E0E0E0] md:mb-[83px] md:ml-[100px] md:mt-[35px] hidden">
+        <div class="md:flex md:gap-[18px] md:pl-[50px] hidden">
+          <div class=""><img src="image/Rectangle 34.png" alt=""></div>
+          <div class="">
+            <h3 class="font-bold text-3xl mb-[16px]">36 Days of Malayalam type</h3>
+            <div class="flex gap-[26px]">
+              <p class="bg-[#142850] px-[10px] rounded-[10px] font-black text-lg text-white">2018</p>
+              <p class="">Typography</p>
+            </div>
+            <p class="mt-[17px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+        </div>
+        <hr class="md:max-w-[858px] md:bg-[#E0E0E0] md:mb-[83px] md:ml-[100px] md:mt-[35px] hidden">  
+      </div>
+    </section>
+    </main>
+    <footer class="">
+      <section class="bg-white container w-[100%] flex gap-[34px] flex-col justify-center items-center mt-[100px]">
+        <div class="flex gap-[35px] mb-[26px]">
+          <img class="bg-contain" src="image/fb.png" alt="">
+          <img class="bg-contain" src="image/insta.png" alt="">
+          <img class="bg-contain" src="image/Group.png" alt="">
+          <img class="bg-contain" src="image/Linkedin.png" alt="">
+        </div>
+        <p class="text-sm font-normal mb-[54px]">Copyright ©2020 All rights reserved </p>
+      </section>
+    </footer>
+  </body>
+</html>
